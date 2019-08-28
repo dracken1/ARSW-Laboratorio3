@@ -1,5 +1,10 @@
 package edu.eci.arsw.springdemo;
 
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+@Service
+@Component("EnglishSpellChecker")
 public class EnglishSpellChecker implements SpellChecker {
 
 	@Override
